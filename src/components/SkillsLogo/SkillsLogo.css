@@ -4,14 +4,54 @@ img{
 }
 
 span{
-    align-items: center;
+    display: inline-flex;
+    font-size: large;
+    font-weight: bold;
     color: wheat;
+    
+}
+.main{
+    margin-top: 40px;
+text-align: center;    
+    
+}
+.webapp{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    
+}
+.mobileapp{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    
+}
+
+.backend {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+.tools {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    place-content: center;
 }
 
 .logoContainer {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
     padding: 10px;
     background-image: linear-gradient(to right , rgba(227, 87, 22,.3), rgba(128, 60, 217, 0.642));
     transition: all ease 500ms ;
+    width: 100px;
+    border-radius: 10px;
+    /* align-items: center; */
 }
 
 .logoContainer:hover{

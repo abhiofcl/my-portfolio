@@ -4,57 +4,16 @@
 
 }
 .index{
-    
-    background-color: #09090b;
+    /* background-color: orange; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-div{
-    color: black;
-    font-size: large;
     
 }
-.intro{
-    min-height: 600px;
-    background-color: bisque;
-
-}
-.container {
-    background-color: blue;
-}
-.second {
-    background-color: burlywood;
-}
-section{
-    display: grid;
-    place-items: center;
-    align-content: center;
-    /* min-height: 100vh; */
-}
-
-.hidden {
-    transition: all 1.5s;
-    transform: translateX(-100%);
-    filter: blur(5px);
-    opacity: 0;
-}
-
-.hiddenR {
-    transition: all 1.5s;
-    transform: translateX(100%);
-    filter: blur(5px);
-    opacity: 0;
-}
-
-.slide-in {
-transform: translateX(0%);
-filter: blur(0);
-opacity: 1;
-}
-.slide-in-delayed{
-transition-delay: 1s;
-transform: translateX(0%);
-filter: blur(0);
-opacity: 1;
+.logos{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    
 }
 @media(prefers-reduced-motion){
     .hidden {
