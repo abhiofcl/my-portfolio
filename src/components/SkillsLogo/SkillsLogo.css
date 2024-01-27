@@ -1,0 +1,22 @@
+img{
+    height: 80px;
+    width: 80px;
+}
+
+span{
+    align-items: center;
+    color: wheat;
+}
+
+.logoContainer {
+    padding: 10px;
+    background-image: linear-gradient(to right , rgba(227, 87, 22,.3), rgba(128, 60, 217, 0.642));
+    transition: all ease 500ms ;
+}
+
+.logoContainer:hover{
+    
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, red, blue);
+    box-shadow: 10px 10px 8px black;
+}
