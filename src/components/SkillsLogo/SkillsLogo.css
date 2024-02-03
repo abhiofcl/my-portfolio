@@ -1,6 +1,6 @@
 img{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
 }
 
 span{
@@ -11,33 +11,33 @@ span{
     
 }
 .main{
-    margin-top: 40px;
+    margin-top: 10px;
 text-align: center;    
     
 }
 .webapp{
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     place-content: center;
     
 }
 .mobileapp{
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     place-content: center;
-    
+    transform: translateX(-30%);
 }
 
 .backend {
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     place-content: center;
 }
 .tools {
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     place-content: center;
@@ -49,7 +49,8 @@ text-align: center;
     padding: 10px;
     background-image: linear-gradient(to right , rgba(227, 87, 22,.3), rgba(128, 60, 217, 0.642));
     transition: all ease 500ms ;
-    width: 100px;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     /* align-items: center; */
 }

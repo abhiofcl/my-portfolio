@@ -20,6 +20,7 @@ function SkillsLogo(props) {
         </div>
         <div className="logoContainer">
           <img src="/assets/css.png" alt="CSS" />
+          <br />
           <span>CSS</span>
         </div>
         <div className="logoContainer">
