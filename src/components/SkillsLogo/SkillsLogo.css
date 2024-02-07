@@ -1,63 +1,117 @@
-img{
-    height: 50px;
-    width: 50px;
+.container{
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    /* justify-content: center; */
 }
-
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    height: 35px;
+    width: 35px;
+}
+  
 span{
     display: inline-flex;
-    font-size: large;
+    font-size: 15px;
     font-weight: bold;
     color: wheat;
+    align-items: center;
     
 }
+
 .main{
     margin-top: 10px;
-text-align: center;    
+    margin-left: 20px;
     
+text-align: center;
+display: grid;   
+/* grid-template-columns: auto auto auto auto; */
+    
+grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+  gap: 30px;
+  width: 100vw;
+
 }
+
 .webapp{
     margin-top: 10px;
-    display: flex;
-    align-items: center;
-    place-content: center;
+    display: grid;   
+    /* grid-template-columns: auto auto auto auto; */
     
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+  /* grid-template-rows: repeat(3, 1fr); */
+    gap: 5px;
+    place-items: center;
+    width: 250px;
+    
+}
+.sectionHeading{
+   grid-column:span 2;
 }
 .mobileapp{
     margin-top: 10px;
-    display: flex;
-    align-items: center;
-    place-content: center;
-    transform: translateX(-30%);
+    display: grid;   
+    /* grid-template-columns: auto auto auto auto; */
+    
+    grid-template-columns: 1fr ;
+    grid-template-rows: 40px;
+  /* grid-template-rows: repeat(3, 1fr); */
+    gap: 5px;
+    place-items: center;
+    width: 250px;
 }
 
 .backend {
     margin-top: 10px;
-    display: flex;
-    align-items: center;
-    place-content: center;
+    display: grid;   
+    grid-template-columns: auto auto auto auto;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+  /* grid-template-rows: repeat(3, 1fr); */
+    gap: 5px;
+    place-items: center;
+    width: 250px;
+    
 }
 .tools {
     margin-top: 10px;
-    display: flex;
-    align-items: center;
-    place-content: center;
+    display: grid;   
+    grid-template-columns: auto auto auto auto;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+  /* grid-template-rows: repeat(3, 1fr); */
+    gap: 5px;
+    place-items: center;
+    width: 250px;
+    
 }
 
 .logoContainer {
     text-align: center;
-    margin: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     padding: 10px;
     background-image: linear-gradient(to right , rgba(227, 87, 22,.3), rgba(128, 60, 217, 0.642));
     transition: all ease 500ms ;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
-    /* align-items: center; */
+    
 }
 
 .logoContainer:hover{
     
-    transform: scale(1.1);
+    transform: scale(1.   );
     background-image: linear-gradient(to right, red, blue);
     box-shadow: 10px 10px 8px black;
 }

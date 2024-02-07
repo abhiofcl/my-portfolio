@@ -8,13 +8,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-.logos{
+/* .logos{
     margin-top: 40px;
     display: flex;
     align-items: center;
     place-content: center;
     
-}
+} */
 @media(prefers-reduced-motion){
     .hidden {
         transition: none;
