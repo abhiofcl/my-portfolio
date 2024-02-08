@@ -25,22 +25,22 @@ function NavBar() {
           </svg>
         </li>
         <li>
-          <Link to="#home">Home</Link>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <Link to="#about">About</Link>
+          <a href="#about">About</a>
         </li>
         <li c>
-          <Link to="#skills">Skills</Link>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <Link to="#projects">Projects</Link>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <Link to="#blog">Blog</Link>
+          <a href="#blog">Blog</a>
         </li>
         <li>
-          <Link to="#contact">Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <ul>
@@ -48,34 +48,34 @@ function NavBar() {
           <img src="/assets/logo2.png" alt="logo" />
         </li>
         <li className="hideOnMobile">
-          <Link smooth to="#home">
+          <a smooth href="#home">
             Home
-          </Link>
+          </a>
         </li>
         <li className="hideOnMobile">
-          <Link smooth to="#about">
+          <a smooth href="#about">
             About
-          </Link>
+          </a>
         </li>
         <li className="hideOnMobile">
-          <Link smooth to="#skills">
+          <a smooth href="#skills">
             Skills
-          </Link>
+          </a>
         </li>
         <li className="hideOnMobile">
-          <Link smooth to="#projects">
+          <a smooth href="#projects">
             Projects
-          </Link>
+          </a>
         </li>
         <li className="hideOnMobile">
-          <Link smooth to="#blog">
+          <a smooth href="#blog">
             Blog
-          </Link>
+          </a>
         </li>
         <li className="hideOnMobile">
-          <Link smooth to="#contact">
+          <a smooth href="#contact">
             Contact
-          </Link>
+          </a>
         </li>
         <li className="menubutton" onClick={showSidebar}>
           <svg

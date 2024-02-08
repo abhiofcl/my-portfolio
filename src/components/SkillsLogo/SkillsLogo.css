@@ -1,12 +1,17 @@
+#skills{
+    height: 100vh;
+    margin-top: 30px;
+    padding-top: 30px;
+}
 .container{
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
     display: grid;
     align-items: center;
     place-items: center;
-    /* justify-content: center; */
+     /* justify-content: center; */
 }
-.heading{
+.heading{margin-top: 50px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -35,8 +40,19 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   place-items: center;
-  gap: 30px;
+  /* gap: 30px; */
   width: 100vw;
+  
+  max-width: 1280px;
+    
+   
+  @media (max-width: 840px) {
+      width: 90%;
+    }
+    @media (max-width: 1200px) {
+        grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+      }
 
 }
 

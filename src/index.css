@@ -8,9 +8,9 @@
   ---background: #191923;
 }
 body{
-  width: 100%;
+  /* width: 100%; */
   background-color: var(---background);
   color: #fff;
-  overflow-x: hidden;
-  position: relative;
+  /* overflow-x: hidden;
+  position: relative; */
 }

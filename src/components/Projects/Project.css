@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  #projects {
+    /* display: flex; */
+    /* overflow-x: scroll; */
+    width: 100%;
+  }
+  
+  .card {
+    
+    border: 2px;
+    border-radius: 10px;
+    
+  }
